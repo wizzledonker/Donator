@@ -1,0 +1,23 @@
+name: Donator
+main: me.chaseoes.donator.Donator
+version: 2.1
+description: Instant payment notifications and more.
+author: chaseoes
+website: http://a1chase.com
+commands:
+  donate:
+    description: Do you wish to donate?
+    usage: /donate
+    aliases: [buy]
+  donator:
+    description: Donator plugin.
+    usage: /donator
+permissions:
+  donator.check:
+    description: Ability to check on donations and view their information.
+  donator.setwall:
+    description: Ability to set the sign wall that new donator's names are added to.
+  donator.reload:
+    description: Ability to reload the plugin configuration.
+  donator.recent:
+    description: Ability to view a listing of recent donations.
